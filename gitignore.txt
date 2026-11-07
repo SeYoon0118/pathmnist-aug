@@ -1,0 +1,13 @@
+# 데이터·결과물은 깃허브에 올리지 않음 (구글 드라이브에 저장)
+*.npz
+*.pt
+*.pth
+*.csv
+*.png
+results/
+checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# 예외: 1만 장 인덱스 파일은 코드처럼 모두가 같은 걸 써야 하므로 올림
+!train_eval_idx.npy
