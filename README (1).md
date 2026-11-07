@@ -21,7 +21,7 @@
 ## Colab에서 사용하기
 ```python
 !pip install -q medmnist
-!git clone https://github.com/<SeYoon0118>/pathmnist-aug.git
+!git clone https://github.com/SeYoon0118/pathmnist-aug.git
 %cd pathmnist-aug
 !git pull   # 다시 실행할 때 최신 코드 받기
 
