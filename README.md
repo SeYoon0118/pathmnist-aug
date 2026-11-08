@@ -17,6 +17,7 @@
 | `train.py` | 학습 루프, 시드 고정 | 박소유 |
 | `evaluation.py` | 평가 지표, 시간 측정, 로그, 체크포인트 | 이세윤 |
 | `train_eval_idx.npy` | 과적합 확인용 원본 학습 1만 장 인덱스 (seed 42, 층화 추출) | 이세윤 |
+| `run.py` | 통합 실행 함수 run_experiment | 이세윤 |
 
 ## Colab에서 사용하기
 ```python
