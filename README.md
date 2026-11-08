@@ -30,7 +30,7 @@ from pathmnist_transforms import get_datasets
 from evaluation import *
 ```
 
-결과(로그 CSV, 그래프, 체크포인트)는 구글 드라이브 공유 폴더에 저장합니다.
+결과(로그 CSV, 그래프, 체크포인트)는 구글 드라이브 공유 폴더(각각 results,figures,checkpoints)에 저장합니다.
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
